@@ -22,7 +22,7 @@ process.env.BABEL_ENV = TARGET;
 const config = {
 
     output: {
-        path: './dist/',
+        path: './build/',
         publicPath: '/',
         filename: 'js/[name].min.js'
     },

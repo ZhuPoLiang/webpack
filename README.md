@@ -4,13 +4,11 @@
 ## 打包文件
 
 ```
-	npm run dev
-
+	npm run build
 ```
 
 ## 运行devServer
 
 ```
 	npm run dev
-
 ```
