@@ -19,7 +19,7 @@ const config = {
     devServer: {
         host: '192.168.1.44',
         port: 2046,
-        contentBase: 'dist'
+        contentBase: 'build'
     },
 
     plugins: [

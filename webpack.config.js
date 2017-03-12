@@ -11,7 +11,7 @@ const production = require('./webpack.prod.config.js');
 
 const PATHS = {
     src: path.resolve(__dirname, 'src'),   // 源路径
-    dist: path.resolve(__dirname, 'dist'),  // 根路径
+    build: path.resolve(__dirname, 'build'),  // 根路径
     modules: path.resolve(__dirname, 'node_modules') // 依赖模块路径
 };
 
@@ -23,7 +23,7 @@ const config = {
 
     output: {
         path: './build/',
-        publicPath: '/',
+        publicPath: './',
         filename: 'js/[name].min.js'
     },
 

@@ -44,7 +44,7 @@ const config = {
 		// 自动创建html文件
 		new HtmlWebpackPlugin({
 			template: path.resolve(__dirname, './src/index.html'),
-			filename: path.resolve(__dirname, './dist/index.html'),
+			filename: path.resolve(__dirname, './build/index.html'),
 			inject: 'body',
             minify: {    //压缩HTML文件
                 removeComments: true,    //移除HTML中的注释
