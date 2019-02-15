@@ -1,4 +1,4 @@
-# webpack 3.x 小例子
+# webpack 4.x 小例子
 
 #### 包含功能
 
@@ -8,6 +8,12 @@
 * 单独打包依赖dll文件；
 * 生产阶段文件名自动增加hash值、压缩混淆JS文件、图片文件小于8KB转换成base64编码；
 * 开发阶段devServer时自动打开浏览器窗口、React组件热加载；
+
+### 插件替换/移除
+
+* mini-css-extract-plugin替换extract-text-webpack-plugin
+* UglifyJsPlugin移除，配置mode: 'production'默认开启压缩功能
+* DefinePlugin移除，配置mode: 'production'默认自动设置process.env.NODE_ENV到不同环境
 
 #### 单独打包合并依赖文件
 
